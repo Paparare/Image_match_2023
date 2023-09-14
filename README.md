@@ -1,7 +1,7 @@
 # Image Matching Challenge 2023
 The competition task is: to reconstruct three-dimensional scenes through many different views. The process of reconstructing a 3D model of an environment from a set of images is called structure from motion (SfM).
 
-Participants are required to estimate the pose of each image in a set of N images. The pose of each camera has a rotation matrix R and a translation vector T as parameters from an arbitrary reference frame.
+And estimate the pose of each image in a set of N images. The pose of each camera has a rotation matrix R and a translation vector T as parameters from an arbitrary reference frame.
 
 ## Detection models:
 **Keynet** is a deep learning model specifically for feature extraction. It uses a specific convolutional neural network architecture to extract keypoints and descriptors from the input image.
