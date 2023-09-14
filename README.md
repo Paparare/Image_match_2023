@@ -3,7 +3,7 @@ The competition task is: to reconstruct three-dimensional scenes through many di
 
 And estimate the pose of each image in a set of N images. The pose of each camera has a rotation matrix R and a translation vector T as parameters from an arbitrary reference frame.
 
-## Detection models:
+## Detection models
 **Keynet** is a deep learning model specifically for feature extraction. It uses a specific convolutional neural network architecture to extract keypoints and descriptors from the input image.
 
 **GFTT (Good Features To Track)**  is a corner detection based feature extraction method mainly used for tracking "good" features in images. This method is based on the Shi-Tomasi method, which is an improved version of the Harris corner detection method. It finds N strongest corners in specified regions of an image.
